@@ -1,0 +1,66 @@
+.chatbox{
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: bisque;
+}
+
+.me .chatbox{
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: cadetblue;
+}
+
+.container{
+  display: flex;
+}
+
+.container.me {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.btm{
+  width: 100%;
+
+}
+
+.btm{
+  position: fixed;
+  bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  /* margin: 5px; */
+}
+
+.btm input{
+  padding: 10px ;
+  /* margin: 15px; */
+  flex-grow: 1;
+  /* outline: none; */
+}
+
+.bmt button{
+  padding: 10px 0;
+  /* margin: 15px ; */
+}
+
+.chat-container{
+  height: 70vh;
+  overflow-y: scroll;
+}
+.signin{
+  margin: 20px;
+  padding: 20px 40px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Inter,sans-serif;
+  font-weight: 600;
+  outline: 0;
+  letter-spacing: -.8px;
+}
